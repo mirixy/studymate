@@ -1,0 +1,76 @@
+/* Sidebar.module.css */
+.sidebar {
+  background-color: #e6e6ff;
+  width: 200px;
+  padding: 20px;
+  height: 100vh; /* Full screen height */
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.logoContainer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.navList {
+  list-style: none;
+  padding: 0;
+}
+
+.navItem {
+  margin-bottom: 20px;
+}
+
+.navItem a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* Logo */
+/* Rectangle 3 */
+.rectangle3, .rectangle4, .rectangle5, .rectangle6 {
+  position: absolute;
+  width: 21.84px;
+  height: 25.58px;
+  
+}
+
+.rectangle3 {
+  top: 0;
+  left: 0;
+  background: #FFE920;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.rectangle4 {
+  top: 0;
+  right: 0;
+  background: #5041FF;
+  border-radius: 0px 10px 0px 0px;
+}
+
+.rectangle5 {
+  bottom: 0;
+  left: 0;
+  background: #FFFACC;
+  border-radius: 0px 0px 0px 10px;
+}
+
+.rectangle6 {
+  bottom: 0;
+  right: 0;
+  background: #D4D0FF;
+  border-radius: 0px 0px 10px 0px;
+}
+
+.logo {
+  position: relative;
+  width: 48px;
+  height: 55px;
+  margin: 0 auto;
+}

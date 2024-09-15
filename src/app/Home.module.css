@@ -1,0 +1,61 @@
+/* src/styles/Home.module.css */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #d5d6f0; /* light purple background */
+    height: 100vh;
+    border-radius: 0px 20px 20px 0px;
+  }
+  
+  .title {
+    font-size: 36px;
+    color: #444;
+    font-family: 'GeistVF', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .overviewGrid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #332fc1; /* Blue background */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'GeistVF', sans-serif;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .card {
+    background-color: #3333ff;
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+  }
+  
+  .chart {
+    background-color: yellow;
+    height: 150px;
+    margin-top: 10px;
+  }
+
+
+
+
+

@@ -8,7 +8,7 @@ const Dashboard: React.FC = () => {
       <h1 className={styles.title}>Übersicht</h1>
       <div className={styles.overviewGrid}>
         <div className={styles.card}>
-          <h2>Fehlzeiten</h2>
+          <h2>Klausurübersicht</h2>
           <p>Diesen Monat:</p>
           <div className={styles.chart}></div> {/* Placeholder for chart */}
         </div>
